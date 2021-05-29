@@ -1,0 +1,8 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns:smartform="sap.ui.comp.smartform"
+    xmlns:smartTable="sap.ui.comp.smarttable"
+    xmlns:control="com.sap.ibso.beeline.reuse.lib.control"
+    xmlns="sap.m">
+  <Text text="Need to be done"/>
+</core:FragmentDefinition>
