@@ -34,9 +34,8 @@
                         </Record>
                     </Collection>
                 </Annotation>
-
-            <Annotation Term="UI.Facets" >
-                    <Collection >
+                <Annotation Term="UI.Facets">
+                    <Collection>
                         <Record Type="UI.ReferenceFacet">
                             <PropertyValue Property="Label" String="Order Details" />
                             <PropertyValue Property="ID" String="idOrderDetails" />
@@ -44,8 +43,6 @@
                         </Record>
                     </Collection>
                 </Annotation>
-            
-
                 <!--Header Info Annotation (To display header in table of list report and top of object page) Annotation ></!-->
                 <Annotation Term="UI.HeaderInfo">
                     <Record>
@@ -63,11 +60,9 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
-
             </Annotations>
-
-            <Annotations Target="NorthwindModel.Category" >
-                <Annotation Term="UI.LineItem" >
+            <Annotations Target="NorthwindModel.Category">
+                <Annotation Term="UI.LineItem">
                     <Collection>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="CategoryID" />
@@ -83,16 +78,13 @@
                         </Record>
                     </Collection>
                 </Annotation>
-
                 <Annotation Term="UI.SelectionFields">
                     <Collection>
                         <PropertyPath>CategoryID</PropertyPath>
                         <PropertyPath>CategoryName</PropertyPath>
                     </Collection>
                 </Annotation>
-
                 <!--Selection fields (Filter Bar Fields) Annotation ></!-->
-
                 <Annotation Term="UI.Facets">
                     <Collection>
                         <Record Type="UI.CollectionFacet">
@@ -115,9 +107,7 @@
                         </Record>
                     </Collection>
                 </Annotation>
-
                 <!--Field Group (To display fields in object page with grop) Annotation ></!-->
-
                 <Annotation Term="UI.FieldGroup" Qualifier="LayoutData">
                     <Record>
                         <PropertyValue Property="Data">
@@ -138,7 +128,6 @@
                         </PropertyValue>
                     </Record>
                 </Annotation>
-
                 <Annotation Term="UI.HeaderInfo">
                     <Record>
                         <PropertyValue Property="TypeName" String="{@i18n>Product.table.header}" />
@@ -156,9 +145,8 @@
                     </Record>
                 </Annotation>
             </Annotations>
-
-            <Annotations Target="NorthwindModel.Order_Detail" >
-                <Annotation Term="UI.LineItem" >
+            <Annotations Target="NorthwindModel.Order_Detail">
+                <Annotation Term="UI.LineItem">
                     <Collection>
                         <Record Type="UI.DataField">
                             <PropertyValue Property="Value" Path="OrderID" />
@@ -174,7 +162,6 @@
                         </Record>
                     </Collection>
                 </Annotation>
-
             </Annotations>
         </Schema>
     </edmx:DataServices>
