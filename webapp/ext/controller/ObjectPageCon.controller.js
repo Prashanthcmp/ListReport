@@ -6,7 +6,7 @@ sap.ui.define([
 
     return sap.ui.controller("fiorielements.ext.controller.ObjectPageCon", {
         onInit: function (oEvent) {
-            alert('onInit');
+            //alert('onInit');
         },
 
         onBeforerebindTable: function (oEvent){
