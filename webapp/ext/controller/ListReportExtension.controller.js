@@ -5,7 +5,7 @@ sap.ui.define([
 
     return sap.ui.controller("fiorielements.ext.controller.ListReportExtension", {
         onInit: function (oEvent) {
-            //alert('onInit');
+            alert('onInit');
         }
     });
 });
