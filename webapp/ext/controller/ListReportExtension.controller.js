@@ -10,6 +10,10 @@ sap.ui.define([
             if(branch-1){
                 //changes are here
             }
+            //branch-2 changes are goes here
+            if(branch-2){
+                //branch 2 changes.
+            }
         }
     });
 });
