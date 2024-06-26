@@ -19,7 +19,9 @@ sap.ui.define([
 
             //seu changes are avilable here
             if(seu){
-                
+            }
+            if(CR-CHanges){
+                //CR changes are done here.
             }
         }
     });
