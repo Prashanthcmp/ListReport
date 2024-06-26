@@ -11,10 +11,10 @@ sap.ui.define([
 
         onBeforerebindTable: function (oEvent){
             debugger
-            var oBindingParameter = oEvent.getParameter("bindingParams");
-            var aFilters = [
-                new Filter("CategoryID", FilterOperator.EQ, 1)
-            ];
+            // var oBindingParameter = oEvent.getParameter("bindingParams");
+            // var aFilters = [
+            //     new Filter("CategoryID", FilterOperator.EQ, 1)
+            // ];
             //oBindingParameter.filters = oBindingParameter.filters.concat(aFilters);
         }
     });
