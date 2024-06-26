@@ -16,6 +16,11 @@ sap.ui.define([
             if(branch-3){
                 //cr changes
             }
+
+            //seu changes are avilable here
+            if(seu){
+                
+            }
         }
     });
 });
